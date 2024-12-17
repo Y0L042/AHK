@@ -7,7 +7,8 @@ global ModuleScripts := [
     ".\VisualStudio.ahk",
     ".\TerminalShortcut.ahk",
     ".\DoomRL.ahk",
-    ".\TerminalWorkspaces.ahk"
+    ".\TerminalWorkspaces.ahk",
+    ".\PowerRun.ahk"
 ]
 
 ; Load and run module scripts

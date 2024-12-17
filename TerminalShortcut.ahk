@@ -13,7 +13,7 @@ global lastActiveTerminal := ""
     
     if (windows.Length == 0) 
     {
-        Run("wt.exe") ; Launches a new terminal
+        Run("wt.exe --window Console") ; Launches a new terminal
     } 
     else 
     {
@@ -50,5 +50,5 @@ global lastActiveTerminal := ""
 ; Ctrl+Shift+Alt+Space - Always open a new terminal
 ^+!Space:: 
 {
-    Run("wt.exe")
+    Run("wt.exe --window Console")
 }
